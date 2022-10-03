@@ -48,14 +48,31 @@ namespace GroceryCrudDemo.Models
         //crud operations for our product table / class
 
         // Read All
-
+        public static List<Product> GetAllProducts()
+        {
+            return DB.GetAll<Product>().ToList();
+        }
         // Read One
-
+        public static Product GetOneProduct(int getID)
+        {
+            return DB.Get<Product>(getID);
+        }
         // Create one
-
+        public static Product InsertProduct(Product prod)
+        {
+            DB.Insert<Product>(prod);
+            return prod;
+        }
         // delete one 
-
+        public static void DeleteProduct(int id)
+        {
+            Product prod = new Product() { id = id};
+            DB.Delete<Product>(prod);
+        }
         //update one
-
+        public static void UpdateProduct(Product prod)
+        {
+            DB.Update<Product>(prod);
+        }
     }
 }

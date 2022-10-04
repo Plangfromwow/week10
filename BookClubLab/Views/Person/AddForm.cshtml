@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "AddForm";
+}
+
+<h1>Add a Person to the club</h1>
+
+<form method="post" action="/person/add">
+    First Name: <input type="text" name="firstname"/><br />
+    Last Name: <input type="text" name="lastname"/><br />
+    Email: <input type="email" name="email"/><br />
+    <input type="submit" name="save" /> 
+</form>

@@ -26,9 +26,37 @@ namespace GroceryCrudDemo.Controllers
         }
 
         public IActionResult add(Product prod)
-        { 
-            DAL.InsertProduct(prod);
-            return Redirect("/product");
+        {
+            // if field is blank, set a message for it and send them back to the form
+            // add method in product controller is where we are 
+
+            bool isValid = true;
+            if (prod.name == null)
+            {
+                ViewBag.NameMessage = "Name is required";
+                isValid = false;
+            }
+            if (prod.description == null)
+            {
+                ViewBag.DescriptionMessage = "Description is required";
+                isValid = false;
+            }
+            if (prod.price <= 0)
+            {
+                ViewBag.PriceMessage = "Price must be greater than 0";
+                isValid = false;
+            }
+
+            if (isValid)
+            {
+                DAL.InsertProduct(prod);
+                return Redirect("/product");
+            }
+            else
+            {
+                List<Category> cats = DAL.GetAllCategories();
+                return View("addform",cats);
+            }
         }
         // delete a product 
         public IActionResult Delete(int id)
@@ -36,6 +64,7 @@ namespace GroceryCrudDemo.Controllers
             DAL.DeleteProduct(id);
             return Redirect("/product");
         }
+        
         // edit a product 
         public IActionResult EditForm(int id)
         {

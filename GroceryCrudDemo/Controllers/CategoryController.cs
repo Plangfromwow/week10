@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Dapper.Contrib.Extensions;
 using GroceryCrudDemo.Models;
+using Dapper;
 
 namespace GroceryCrudDemo.Controllers
 {
@@ -35,8 +36,18 @@ namespace GroceryCrudDemo.Controllers
             return View(cat);
         }
 
+        public IActionResult ConfirmDelete(string ID)
+        {
+            Category category = DAL.GetOneCategory(ID);
+            //ViewData["categoryid"] = ID;
+            return View(category);
+        }
+
+
         public IActionResult Delete(string id)
         {
+            
+
             DAL.DeleteCategory(id);
             return Redirect("/category");
         }
@@ -52,5 +63,7 @@ namespace GroceryCrudDemo.Controllers
             DAL.UpdatCategory(cat);
             return Redirect("/category");
         }
+
+
     }
 }

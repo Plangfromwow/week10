@@ -37,6 +37,12 @@ namespace GroceryCrudDemo.Models
         // delete one 
         public static void DeleteCategory(string id)
         {
+            // delete all products in this category
+            // we don't do this because it's scary 
+            //DB.Execute($"delete from product where category = '{id}'");
+
+            DB.Execute("delete from product where category=@catid", new {catid=id});
+
             Category cat = new Category() { id = id};
             DB.Delete<Category>(cat);
         }
@@ -74,5 +80,7 @@ namespace GroceryCrudDemo.Models
         {
             DB.Update<Product>(prod);
         }
+
+       
     }
 }

@@ -1,0 +1,14 @@
+﻿@model List<Employee>;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List of Employees</h1>
+
+<a href="/employee/addform">Add Employee</a>
+@foreach(Employee emp in Model){
+    <div>@emp.firstname @emp.lastname - Hired on @emp.hiredate.ToString("yyyy-MM-dd")
+    
+    
+    </div>
+}

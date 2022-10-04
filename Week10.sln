@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryCrudDemo", "GroceryCrudDemo\GroceryCrudDemo.csproj", "{B3D77C8B-167C-4255-9335-972A915CE1AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroceryCrudDemo", "GroceryCrudDemo\GroceryCrudDemo.csproj", "{B3D77C8B-167C-4255-9335-972A915CE1AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessCrudDemo", "BusinessCrudDemo\BusinessCrudDemo.csproj", "{12DF776D-4617-42D3-963F-EFA5BEE47D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TernaryOperator", "TernaryOperator\TernaryOperator.csproj", "{FF373220-E200-4DF6-8A56-C35B78D72DF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B3D77C8B-167C-4255-9335-972A915CE1AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3D77C8B-167C-4255-9335-972A915CE1AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3D77C8B-167C-4255-9335-972A915CE1AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DF776D-4617-42D3-963F-EFA5BEE47D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DF776D-4617-42D3-963F-EFA5BEE47D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DF776D-4617-42D3-963F-EFA5BEE47D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DF776D-4617-42D3-963F-EFA5BEE47D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF373220-E200-4DF6-8A56-C35B78D72DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF373220-E200-4DF6-8A56-C35B78D72DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF373220-E200-4DF6-8A56-C35B78D72DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF373220-E200-4DF6-8A56-C35B78D72DF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

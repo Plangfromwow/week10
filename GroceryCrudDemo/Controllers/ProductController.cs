@@ -21,11 +21,12 @@ namespace GroceryCrudDemo.Controllers
         // add new product 
         public IActionResult addForm()
         {
-            return View();
+            List<Category> cats = DAL.GetAllCategories();
+            return View(cats);
         }
 
         public IActionResult add(Product prod)
-        {
+        { 
             DAL.InsertProduct(prod);
             return Redirect("/product");
         }
@@ -38,6 +39,8 @@ namespace GroceryCrudDemo.Controllers
         // edit a product 
         public IActionResult EditForm(int id)
         {
+           
+            ViewData["categories"] = DAL.GetAllCategories();
             return View(DAL.GetOneProduct(id));
         }
         public IActionResult SaveChanges(Product prod)

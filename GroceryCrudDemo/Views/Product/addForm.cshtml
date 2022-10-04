@@ -1,4 +1,4 @@
-﻿
+﻿@model List<Category>;
 @{
     ViewData["Title"] = "addForm";
 }
@@ -10,6 +10,12 @@
     Description:<input type="text" name="description" /><br />
     Price:<input type="text" name="price" /><br />
     Inventory:<input type="text" name="inventory" /><br />
-    Category:<input type="text" name="category" /><br />
+    Category:
+    <select name="category">
+        <option>Select Category</option>
+        @foreach(Category cat in Model){
+            <option value="@cat.id">@cat.name</option>
+        }
+    </select>
     <input type="submit" name="save" />
 </form>

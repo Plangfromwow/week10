@@ -1,0 +1,15 @@
+C:\Grand Circus\Week10\TernaryOperator\bin\Debug\net6.0\TernaryOperator.exe
+C:\Grand Circus\Week10\TernaryOperator\bin\Debug\net6.0\TernaryOperator.deps.json
+C:\Grand Circus\Week10\TernaryOperator\bin\Debug\net6.0\TernaryOperator.runtimeconfig.json
+C:\Grand Circus\Week10\TernaryOperator\bin\Debug\net6.0\TernaryOperator.dll
+C:\Grand Circus\Week10\TernaryOperator\bin\Debug\net6.0\TernaryOperator.pdb
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.csproj.AssemblyReference.cache
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.AssemblyInfoInputs.cache
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.AssemblyInfo.cs
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.csproj.CoreCompileInputs.cache
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.dll
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\refint\TernaryOperator.dll
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.pdb
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\TernaryOperator.genruntimeconfig.cache
+C:\Grand Circus\Week10\TernaryOperator\obj\Debug\net6.0\ref\TernaryOperator.dll

@@ -6,8 +6,8 @@
 <h1>Add a Person to the club</h1>
 
 <form method="post" action="/person/add">
-    First Name: <input type="text" name="firstname"/><br />
-    Last Name: <input type="text" name="lastname"/><br />
-    Email: <input type="email" name="email"/><br />
+    First Name: <input type="text" name="firstname"/><span>@ViewBag.FirstNameMessage</span><br />
+    Last Name: <input type="text" name="lastname"/><span>@ViewBag.LastNameMessage</span><br />
+    Email: <input type="email" name="email"/><span>@ViewBag.EmailMessage</span><br />
     <input type="submit" name="save" /> 
 </form>

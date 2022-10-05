@@ -18,8 +18,31 @@ namespace BookClubLab.Controllers
 
         public IActionResult Add(Person per)
         {
-            DAL.CreatePerson(per);
-            return Redirect("/person");
+            bool isValid = true;
+            if (per.firstname == null)
+            {
+                ViewBag.FirstNameMessage = "First Name is required.";
+                isValid = false;
+            }
+            if (per.lastname == null)
+            {
+                ViewBag.LastNameMessage = "Last Name is required.";
+                isValid = false;
+            }
+            if (per.email == null)
+            {
+                ViewBag.EmailMessage = "Email is required.";
+                isValid = false;
+            }
+            if (isValid)
+            {
+                DAL.CreatePerson(per);
+                return Redirect("/person");
+            }
+            else
+            {
+                return View("addform");
+            }
         }
         public IActionResult EditForm(int id)
         {

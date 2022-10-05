@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TOgyP5hiyk6MiHR5mbKR3JHRzSG8SzOoHqtISXhfh6pBX73y+rGjCm46TYrPKEwRQRL3GDPaaLu3T6hQN5ykyg==",
+  "dgSpecHash": "IAjf1TSWzAdUuUvMpe9h5wKNtmg+xY48cLiNRYCfh77qsIkD94lmoGRVCRftmGzSMxKlr3gFEKLe8x5cjLOoIA==",
   "success": true,
-  "projectFilePath": "C:\\Grand Circus\\Week10\\Businessv2Demo\\Businessv2Demo.csproj",
+  "projectFilePath": "C:\\Grand Circus\\week10a\\week10\\Businessv2Demo\\Businessv2Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jgarcia4\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\jgarcia4\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",

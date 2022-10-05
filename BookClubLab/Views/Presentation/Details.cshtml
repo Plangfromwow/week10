@@ -1,0 +1,12 @@
+﻿@model Presentation;
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>@Model.booktitle - @Model.presentationdate.ToShortDateString()</h1>
+
+<h2>
+    Book Author: @Model.bookauthor <br />
+    Book Genre:@Model.genre <br />
+
+</h2>

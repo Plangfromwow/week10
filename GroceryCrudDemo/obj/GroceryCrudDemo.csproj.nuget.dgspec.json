@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Grand Circus\\Week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj": {}
+    "C:\\Grand Circus\\week10a\\week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj": {}
   },
   "projects": {
-    "C:\\Grand Circus\\Week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj": {
+    "C:\\Grand Circus\\week10a\\week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Grand Circus\\Week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj",
+        "projectUniqueName": "C:\\Grand Circus\\week10a\\week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj",
         "projectName": "GroceryCrudDemo",
-        "projectPath": "C:\\Grand Circus\\Week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj",
+        "projectPath": "C:\\Grand Circus\\week10a\\week10\\GroceryCrudDemo\\GroceryCrudDemo.csproj",
         "packagesPath": "C:\\Users\\jgarcia4\\.nuget\\packages\\",
-        "outputPath": "C:\\Grand Circus\\Week10\\GroceryCrudDemo\\obj\\",
+        "outputPath": "C:\\Grand Circus\\week10a\\week10\\GroceryCrudDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LqTcqotYPyplttnKytAbpxhloOUTh2nbJtZHj7y28jtrQfui1MhES/v2BdUTEZ7E/arWLbKfZJHIyucV1aybKg==",
+  "dgSpecHash": "Yv2RXqz01F5rdhGTJTp/ING9+rdtm6Rmt+bP7vpEMKBgRJEgyokySC3FQnD4j3aIxnbWeQO8aQ2ncDJCMvWWog==",
   "success": true,
-  "projectFilePath": "C:\\Grand Circus\\Week10\\BookClubLab\\BookClubLab.csproj",
+  "projectFilePath": "C:\\Grand Circus\\week10a\\week10\\BookClubLab\\BookClubLab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jgarcia4\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\jgarcia4\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",

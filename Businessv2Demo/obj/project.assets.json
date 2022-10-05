@@ -9252,11 +9252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Grand Circus\\Week10\\Businessv2Demo\\Businessv2Demo.csproj",
+      "projectUniqueName": "C:\\Grand Circus\\week10a\\week10\\Businessv2Demo\\Businessv2Demo.csproj",
       "projectName": "Businessv2Demo",
-      "projectPath": "C:\\Grand Circus\\Week10\\Businessv2Demo\\Businessv2Demo.csproj",
+      "projectPath": "C:\\Grand Circus\\week10a\\week10\\Businessv2Demo\\Businessv2Demo.csproj",
       "packagesPath": "C:\\Users\\jgarcia4\\.nuget\\packages\\",
-      "outputPath": "C:\\Grand Circus\\Week10\\Businessv2Demo\\obj\\",
+      "outputPath": "C:\\Grand Circus\\week10a\\week10\\Businessv2Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9321,7 +9321,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
